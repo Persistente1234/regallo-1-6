@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Sin tiempo para nada element loveMsg!');
 
       typeWriterEffect(
-        `buena suerte ${userName} Tu 1/6 es tan feliz como una niño, pero te quiero como un rey 👑. No importa donde estes sonrrie, sueña,aprende,cada dia es un regalo, todos los días!. de parte de su amigo programador y diseñador VIC_PERSI💘`, 'loveMsg',
+        `buena suerte ${userName} Tu 1/6 es tan feliz como una niñ@, pero te quiero como un rey 👑. No importa donde estes sonrrie, sueña,aprende,cada dia es un regalo, todos los días!. de parte de su amig@ programador y diseñador VIC_PERSI💘`, 'loveMsg',
         () => {
           const fromTag = document.createElement("div");
           fromTag.id = 'fromTag';
